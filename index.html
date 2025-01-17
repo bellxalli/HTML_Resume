@@ -5,84 +5,95 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Resume</title>
         <link rel="stylesheet" href="styles/resumeStyles.css">
+        <!-- <link rel="stylesheet" href="styles/reset.css"> -->
     </head>
 
     <body>
         <header>
-            <h1>Xalli Bell</h1>
-            <p>bell.xalli@student.greenriver.edu</p>
-            <p>www.linkedin.com/in/bell.xalli</p>
-            <p>2062976355</p>
-            <p>github.com/bellxalli</p>
+            <h1 id="name">Xalli Bell</h1>
+            <p id="email">bell.xalli@student.greenriver.edu</p>
+            <p id="linkedin">www.linkedin.com/in/bell.xalli</p>
+            <p id="phone">2062976355</p>
+            <p id="git">github.com/bellxalli</p>
         </header>
 
         <!--Summary / Objective-->
-        <h3>Objective</h3>
-        <p>Something...</p>
+        <div id="objective"> 
+            <h3>Objective</h3>
+            <p>Something...</p>
+        </div>
 
         <!--Education-->
-        <h3>Education</h3>
-        <p><b>Green River College</b> -- Auburn, WA</p>
-        <p id="education-length">2021 to Present</p>
-        <p>Bachelor of Applied Science, expected June 2026</p>
-        <p>Major: Software Development </p>
-        <p>Relevant Coursework:</p>
-        <ul>
-            <li>Object-Oriented Programming</li>
-            <li>Flil Stack Web Development</li>
-            <li>Agile Development Methods</li>
-            <li>DataBase Fundamentals</li>
-            <li>Systems Programming</li>
-            <li>Data Structures</li>
-            <li>Algorithms</li>
-        </ul>
+        <div id="education">
+            <h3 id="ed">Education</h3>
+            <p id="school"><b>Green River College</b> -- Auburn, WA</p>
+            <p id="education-length">2021 to Present</p>
+            <p id="program">Bachelor of Applied Science, expected June 2026</p>
+            <p id="area">Major: Software Development </p>
+            <p id="learns">Relevant Coursework:</p>
+            <ul class="ulist">
+                <li id="Object-Oriented">Object-Oriented Programming</li>
+                <li id="full-stack">Full Stack Web Development</li>
+                <li id="agile">Agile Development Methods</li>
+                <li id="database">DataBase Fundamentals</li>
+                <li id="Systems">Systems Programming</li>
+                <li id="structures">Data Structures</li>
+                <li id="algorithm">Algorithms</li>
+            </ul>
+        </div>        
 
         <!--Skills and Certifications-->
-        <h3>Skills and Certifications</h3>
-        <ul>
-            <li>Languages: c++, Java, JavaScript, SQL, Python</li>
-            <li>Web: HTML/CSS</li>
-            <li>Agile: Pair Programming</li>
-            <li>Tools: Git</li>
-            <li>Certified Water Safety Instructor</li>
-            <li>Certified Lifegaurd</li>
-        </ul>
+        <div id="skills">
+            <h3>Skills and Certifications</h3>
+            <ul>
+                <li>Languages: c++, Java, JavaScript, SQL, Python</li>
+                <li>Web: HTML/CSS</li>
+                <li>Agile: Pair Programming</li>
+                <li>Tools: Git</li>
+                <li>Certified Water Safety Instructor</li>
+                <li>Certified Lifegaurd</li>
+            </ul>
+        </div>
+        
         <!--Experience-->
             <!--One-->
-        <h3>Experience</h3>
-        <p><b>Weyerhaeuser King County Aquatic Center</b> -- Federal Way, WA</p>
-        <p class="job-length">2024 to Present</p>
-        <p>Lead Lifegaurd and Water Safety Instructor</p>
-        <ul>
-            <li>about</li>
-            <li>impact</li>
-            <li>my contribution</li>
-        </ul>
-            <!--Two-->
-        <p><b>Old Navy</b> -- Federal Way, WA</p>
-        <p class="job-length">2023 to 2024</p>
-        <p>Sales Associate</p>
-        <ul>
-            <li>about</li>
-            <li>impact</li>
-            <li>my contribution</li>
-        </ul>
-            <!--Three-->
-        <p><b>Hidden Valley Camp</b> -- Granite Falls, WA</p>
-        <p class="job-length">2021 to 2024</p>
-        <p>Camp Counselor and Lifegaurd</p>
-        <ul>
-            <li>about</li>
-            <li>impact</li>
-            <li>my contribution</li>
-        </ul>
-
-        <!--Achievements and Activities-->
-        <h3>Achievements and Activities</h3>
-        <ul>
-            <li>Metropolitan King County Council Recognized, 2024</li>
-            <li>Green River College Foundation Scholarship, Awardee, 2023</li>
-        </ul>
+        <div id="experience">
+            <h3>Experience</h3>
+            <p class="work"><b>Weyerhaeuser King County Aquatic Center</b> -- Federal Way, WA</p>
+            <p class="job-length">2024 to Present</p>
+            <p>Lead Lifegaurd and Water Safety Instructor</p>
+            <ul>
+                <li>about</li>
+                <li>impact</li>
+                <li>my contribution</li>
+            </ul>
+                <!--Two-->
+            <p class="work"><b>Old Navy</b> -- Federal Way, WA</p>
+            <p class="job-length">2023 to 2024</p>
+            <p>Sales Associate</p>
+            <ul>
+                <li>about</li>
+                <li>impact</li>
+                <li>my contribution</li>
+            </ul>
+                <!--Three-->
+            <p class="work"><b>Hidden Valley Camp</b> -- Granite Falls, WA</p>
+            <p class="job-length">2021 to 2024</p>
+            <p>Camp Counselor and Lifegaurd</p>
+            <ul>
+                <li>about</li>
+                <li>impact</li>
+                <li>my contribution</li>
+            </ul>
+        </div>
         
+        <!--Achievements and Activities-->
+        <div id="achievements">
+            <h3>Achievements and Activities</h3>
+            <ul>
+                <li>Metropolitan King County Council Recognized, 2024</li>
+                <li>Green River College Foundation Scholarship, Awardee, 2023</li>
+            </ul>
+        </div>
     </body>
 </html>

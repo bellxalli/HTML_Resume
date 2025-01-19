@@ -29,7 +29,6 @@ li
 }  */
 
 /*Header Styles*/
-
 header
 {
     
@@ -97,11 +96,7 @@ header p
         "pr pr pr pr"
         "ae ae ae ae"
         "lr lr lr lr"
-        "ul ul ul ul"
-        /*"oo oo fs fs"
-        "ag ag db db"
-        "sy sy st st"
-        "al al al al"*/;
+        "eu eu eu eu";
 }
 #ed {grid-area: ed;}
 #school {grid-area: sc;}
@@ -109,7 +104,19 @@ header p
 #program {grid-area: pr;}
 #area {grid-area: ae;}
 #learns {grid-area: lr;} 
-.ulist {grid-area: ul;}
+#ed-ulist {grid-area: eu;}
+
+#ed-ulist
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+
+    "oo fs"
+    "ag db"
+    "sy st"
+    "al al";
+}
 #Object-Oriented {grid-area: oo;}
 #full-stack {grid-area: fs;}
 #agile {grid-area: ag;}
@@ -126,4 +133,118 @@ header p
 #education-length
 {
     text-align: right;
+}
+
+/* Skills and Certifications */
+#skills
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#sc-ulist
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        "la wb"
+        "pp to"
+        "wi lg";
+}
+#lang {grid-area: la;}
+#web {grid-area: wb;}
+#pp {grid-area: pp;}
+#tools {grid-area: to;}
+#wsi {grid-area: wi;}
+#lg {grid-area: lg;}
+
+/* Experience */
+#expericne
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
+#ex-one 
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "wk wk jl"
+        "tt tt tt"
+        "xu xu xu";
+}
+.work {grid-area: wk;}
+.job-length {grid-area: jl;}
+.title {grid-area: tt;}
+.ex-ulist {grid-area: xu;} 
+
+#ex-two 
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "wk wk jl"
+        "tt tt tt"
+        "xu xu xu";
+}
+.work {grid-area: wk;}
+.job-length {grid-area: jl;}
+.title {grid-area: tt;}
+.ex-ulist {grid-area: xu;}
+
+#ex-three 
+{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas:
+        "wk wk jl"
+        "tt tt tt"
+        "xu xu xu";
+}
+.work {grid-area: wk;}
+.job-length {grid-area: jl;}
+.title {grid-area: tt;}
+.ex-ulist {grid-area: xu;}
+
+.job-length
+{
+    text-align: right;
+}
+
+#experience p
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Achievements and Activities */
+#ahcievements ul
+{
+    margin: 2px;
+    padding: 0;
 }

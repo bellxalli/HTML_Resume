@@ -17,21 +17,10 @@ h3
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-/* ul
-{
-    display: flex;
-    flex-direction: row;
-}
-
-li
-{
-    padding: 0 10px 0 10px;
-}  */
 
 /*Header Styles*/
 header
 {
-    
     margin-left: auto;
     margin-right: auto;
     margin-top: 0;
@@ -39,40 +28,47 @@ header
     padding: 0;
 
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     grid-template-areas: 
-        "na na"
-        "em li"
-        "ph gt";
+        "na na na"
+        "em em ig"
+        "li li ig"
+        "ph ph ig"
+        "gt gt ig";
 }
 #name {grid-area: na;}
 #email {grid-area: em;}
 #linkedin {grid-area: li;}
 #phone {grid-area: ph;}
 #git {grid-area: gt;} 
+#me-img {grid-area: ig;}
 
 h1
 {
-    text-align: center;
+    text-align: center;    
 }
 
 header p
 {
-    margin: 2px;
+    margin: 5px;
 }
 
-#email, #phone
+img
 {
-    text-align: left;
-}
-
-#linkedin, #git
-{
-    text-align: right;
+    height: 110px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    padding-top: 0px;
 }
 
 
 /*Summary/Objective Styles*/
+#objective
+{
+    padding-top: 5px;
+}
+
 #objective p
 {
     margin: 2px;
@@ -133,6 +129,11 @@ header p
 #education-length
 {
     text-align: right;
+}
+
+#education
+{
+    padding-top: 5px;
 }
 
 /* Skills and Certifications */
@@ -242,7 +243,21 @@ header p
     padding: 0px;
 }
 
+#experience
+{
+    padding-top: 3px;
+}
+
 /* Achievements and Activities */
+#achievements
+{
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+}
+
 #ahcievements ul
 {
     margin: 2px;
